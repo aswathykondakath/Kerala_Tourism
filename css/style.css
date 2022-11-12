@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+  body {
+    background-image: url("../images/districts_bg.jpg")!important;
+    background-size: cover;
+   
+} 
+#logo {
+    margin-left: 10%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.nav-item a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     border: 1px solid white;
+    padding: 10px;
+    margin: 5px;
+}
+
+.nav-item a:hover{
+    background-color:black;
+}
+.container {
+    /* border: 2px solid red; */
+    margin: 10px; 
+    text-align: justify;
+    padding: 5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.container p{
+   margin: 10px;
+    font-size: large;
+    text-align: justify;
+}
+.mar{
+    color:brown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size:larger;
+}
+footer {
+    
+    background-color: black;
+    height: 5.5em;
+    margin-top: 50%; 
+}

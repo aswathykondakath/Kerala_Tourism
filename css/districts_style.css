@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+  body {
+    background-image: url("../images/districts_bg.jpg")!important;
+    background-size:cover;
+    
+} 
+#logo {
+    margin-left: 10%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.nav-item a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     border: 1px solid white;
+    padding: 10px;
+    margin: 5px;
+}
+
+.nav-item a:hover{
+    background-color:green;
+    color: black !important;
+}
+.container h1,h2{
+    color: darkgreen;
+}
+
+
+footer {
+    background-color: black;
+    height: 5.5em;
+    margin-top: 50%; 
+}

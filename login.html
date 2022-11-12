@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn</title>
+    <link rel="stylesheet" href="css/login_style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header Starts Here -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <img src="images/kerala-tourism-logo.png" alt="logo_small" id="logo">
+          <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="index.html">Home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="login.html">LogIn</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="signup.html">SignUp</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="districts.html">Districts</a>
+              </li>
+          </ul>  
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success text-white" type="submit">Search</button>
+          </form>     
+        </div>
+      </nav>
+      <!-- Header Ends Here -->
+      
+    <!-- LogIn form starts here -->
+    <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+    <form class="my_login">
+      <h2>User LogIn</h2>
+                <br>
+      <div class="mb-3">
+        <b><label for="exampleInputEmail1" class="form-label">Username</label></b>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your username with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <b><label for="exampleInputPassword1" class="form-label">Password</label></b>
+        <input type="password" class="form-control" id="exampleInputPassword1">
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Remember me</label>
+      </div>
+      <div class="text-center">
+      <button type="submit" class="btn btn-outline-success">LogIn</button>
+    </div>
+    </form>
+    </div>
+     <!-- Footer Start -->
+     <footer id="sticky-footer" class="flex-shrink-0  bg-dark text-white ">
+      <div class="container text-center text-white">
+        <small>All rights reserved  &copy; Kerala Tourism Department.<br>
+          Department of Tourism, Government of Kerala, Park View, Thiruvananthapuram, Kerala, India - 695 033
+          <br>Phone: +91 471 2321132, Fax: +91 471 2322279, E-mail: info@keralatourism.org.
+        </small>
+      </div>
+    </footer>
+  <!-- Footer End -->
+</body>
+</html>
